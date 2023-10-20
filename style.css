@@ -1,5 +1,5 @@
 .body {
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
 }
 
 .navbar {
@@ -7,9 +7,17 @@
     z-index: 1;
 }
 
+.site-nav{
+    position: absolute;
+    top: 0;
+    right: 30px;
+    left: 30px;
+    z-index: 99;
+}
+
 .logo-ukuran {
     width: 50px;
-    
+    margin-left: -40px;
 }
 
 .nav-link {
@@ -20,7 +28,6 @@
     background-image: url(peakpx\ \(1\).jpg);
     background-size: cover;
     height: 690px;
-    text-align: left;
     color: white;
     position: relative;
 }
@@ -40,33 +47,39 @@
     bottom: 0;
 }
 
+.jumbotron .display-4{
+    margin-top: 150px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-size: 24px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.jumbotron .lead{
+    padding-left: 20px;
+}
+
+.jumbotron .display-4 span{
+    font-weight: 500;
+}
+
 .delayed-text{
     opacity: 0;
     animation: fadeIn 1.5s forwards;
 }
 
-.afandi-info-panel{
-    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
-    border-radius: 12px;
-    margin-top: -120px;
-    background-color: white;
-    text-align: center;
-    padding: 30px;
+.afandi-posisi-foto{
+    justify-content: center;
 }
 
-.afandi-info-panel h2{
-    font-weight: bold;
-    margin-top: 5px;
-}
-
-.afandi-info-panel h4{
-    font-weight: bold;
-    margin-top: 5px;
-}
-
-.afandi-info-panel h6{
-    font-weight: bold;
-    margin-top: 5px;
+.ukuran-foto{
+    margin-top: 2rem;
+    width: 240px;
+    margin-right: 4.8rem;
+    align-items: center;
+    justify-content: center;
+    height: auto;
 }
 
 @keyframes fadeIn {
@@ -80,17 +93,41 @@
     }
 }
 
-.jumbotron .display-4{
-    margin-top: 150px;
-    font-weight: 200;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-    font-size: 24px;
-    margin-bottom: 30px;
+
+.about {
+    background: url(peakpx\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 916px;
+    display: flex;
+    align-items: center;
 }
 
-.jumbotron .display-4 span{
-    font-weight: 500;
+.about .titlepage {
+    padding-bottom: 0;
 }
+
+.about .titlepage h2 {
+    color: white;
+}
+
+.about .titlepage p {
+    line-height: 33px;
+    padding-top: 30px;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 80px;
+}
+
+.about_box_img figure {
+    margin: 0;
+}
+
+.about_box_img figure img {
+    width: 100%;
+}
+
+
 
 @media (min-width: 992px) {
     .navbar-brand, .nav-link{
