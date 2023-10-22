@@ -65,10 +65,6 @@
     font-weight: 500;
 }
 
-.afandi-posisi-foto {
-    justify-content: center;
-}
-
 .jumbotron a {
     display: inline-block;
     background: black;
@@ -85,15 +81,6 @@
 .jumbotron a:hover {
     color: black;
     background: white;
-}
-
-.ukuran-foto {
-    margin-top: 4rem;
-    width: 400px;
-    height: 400px;
-    margin-right: 6rem;
-    align-items: center;
-    justify-content: center;
 }
 
 .delayed-text {
@@ -241,20 +228,6 @@
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
   }
   
-  .contact .info i {
-    font-size: 20px;
-    color: #47b2e4;
-    float: left;
-    width: 44px;
-    height: 44px;
-    background: #e7f5fb;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    transition: all 0.3s ease-in-out;
-  }
-  
   .contact .info h4 {
     font-size: 22px;
     font-weight: 600;
@@ -323,18 +296,6 @@
     padding: 15px;
   }
   
-  .contact .php-email-form .loading:before {
-    content: "";
-    display: inline-block;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    margin: 0 10px -6px 0;
-    border: 3px solid #18d26e;
-    border-top-color: #eee;
-    animation: animate-loading 1s linear infinite;
-  }
-  
   .contact .php-email-form .form-group {
     margin-bottom: 20px;
   }
@@ -397,11 +358,4 @@
         font-size: 32px;
     }
 
-    .experience-section {
-        padding: 30px 0;
-    }
-
-    .untree_co-section {
-        padding: 50px 0;
-    }
 }
